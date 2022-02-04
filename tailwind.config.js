@@ -1,0 +1,14 @@
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    fontFamily: {
+      'Outfit': ['Outfit', 'sans-serif'],
+    },
+    screens: {
+      'mobile': {'max':'430px'},
+      'Desktop': {'max':'1440px'},
+    },
+    extend: {},
+  },
+  plugins: [],
+}
